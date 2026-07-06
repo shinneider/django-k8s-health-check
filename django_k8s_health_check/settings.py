@@ -2,8 +2,8 @@ from django.conf import settings
 from django.test.signals import setting_changed
 from django.utils.translation import gettext_lazy as _
 
-from rest_framework.settings import APISettings
 from rest_framework.settings import DEFAULTS as DRF_DEFAULTS
+from rest_framework.settings import APISettings
 
 USER_SETTINGS = getattr(settings, 'HEALTH_CHECK', None)
 
